@@ -10,4 +10,4 @@ COPY src/index.js index.js
 
 EXPOSE 3000
 
-CMD ["npm", "src/index.js"]
+CMD ["node", "src/index.js"]
